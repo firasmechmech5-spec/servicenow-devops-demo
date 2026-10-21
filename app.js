@@ -1,3 +1,7 @@
 console.log("ServiceNow DevOps demo");
-console.log("ServiceNow DevOps demo test 1 ");
 
+function healthCheck() {
+    return "OK";
+}
+
+console.log(healthCheck());
